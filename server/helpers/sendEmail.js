@@ -1,5 +1,5 @@
-import dotenv from 'dotenv';
-import nodemailer from 'nodemailer';
+import dotenv from "dotenv";
+import nodemailer from "nodemailer";
 
 dotenv.config();
 
@@ -10,25 +10,25 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.EMAIL_USER, // Use environment variables for sensitive data
     pass: process.env.EMAIL_PASS,
-  },  // Show debug output
+  }, // Show debug output
 });
 
-transporter.verify(function(error, success) {
-    if (error) {
-      console.error('SMTP connection error:', error);
-    } else {
-      console.log('SMTP connection established successfully');
-    }
-  });
+transporter.verify(function (error, success) {
+  if (error) {
+    console.error("SMTP connection error:", error);
+  } else {
+    console.log("SMTP connection established successfully");
+  }
+});
 
 async function sendEmail(to, subject, text, html) {
   try {
     const info = await transporter.sendMail({
-      from: '"Memories ✨" <padil2246@gmail.com>', // sender address
+      from: '"Memories ✨" <>', // sender address
       to,
       subject,
       text,
-      html
+      html,
     });
 
     console.log("Message sent: %s", info.messageId);
