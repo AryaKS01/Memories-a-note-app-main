@@ -1,14 +1,14 @@
 # Memories Notes App <img src="./frontend/public/logo192.png" width="30" height="30">
 
 A fullstack web application built with the MERN stack that allows users to sign up, log in, create, update, delete, and download notes in text format. This app features modern UI/UX with various libraries and frameworks. <br /> <br />
-[Click here](https://memories-note-app.vercel.app/) to preview
+[Click here](https://memories-a-note-app-main-1efy.vercel.app/) to preview
 
 ## App Screenshots
 ![Screenshot (5)](https://github.com/Adil0710/Memories-a-note-app/assets/91872021/1d306c61-908d-4a84-8d0a-390a36b8c7bd)
 
 ![Screenshot (6)](https://github.com/Adil0710/Memories-a-note-app/assets/91872021/9481f0f6-c1ee-48b1-8934-83cac7204783)
-![light](https://github.com/Adil0710/Memories-a-note-app/assets/91872021/d4854f58-76f2-421b-a209-e4cfaf5397cd)
-![dark](https://github.com/Adil0710/Memories-a-note-app/assets/91872021/feb30706-0ac0-4373-ac6b-ad550db7ab73)
+![light](https://github.com/AryaKS01/Memories-a-note-app-main/blob/main/frontend/src/assets/view-light.png)
+![dark](https://github.com/AryaKS01/Memories-a-note-app-main/blob/main/frontend/src/assets/view-dark.png)
 
 
 
@@ -53,7 +53,7 @@ Make sure you have the following installed on your local development machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Adil0710/Memories-a-note-app.git
+    git clone https://github.com/AryaKS01/Memories-a-note-app-main.git
     cd Memories-a-note-app
     ```
 
